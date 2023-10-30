@@ -16,6 +16,7 @@ struct ContentView: View {
             
             //second layer
             VStack {
+                Spacer()
                 Text("00:09.96")
                     .font(Font.system(size: 90, weight: .thin))
                     .foregroundStyle(.white)
@@ -25,7 +26,15 @@ struct ContentView: View {
                     Spacer()
                     CircleButtonView(buttonColor: Color("Dark Green"), label: "Start", labelColor: .green)
                 }
-                
+                List{
+                    Text("1")
+                    Text("2")
+                    Text("3")
+                    Text("4")
+                    Text("5")
+                }
+                //set the amount of vertical height we want this list to take up
+                .frame(height:300)
             }
             .padding()
         }
