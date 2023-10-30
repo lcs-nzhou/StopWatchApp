@@ -55,5 +55,8 @@ struct ContentView: View {
                 Text("Timer")
             }
     }
-
+    // Change the accent olor for the currently active tab item
+    .accentColor(.orange)
+    //Ensure tab items that are not active remain visible
+    .preferredColorScheme(.dark)
 }
