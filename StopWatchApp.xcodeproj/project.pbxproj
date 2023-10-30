@@ -14,6 +14,7 @@
 		749CEF1F2AF0042300F7B08E /* StopWatchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEF1E2AF0042300F7B08E /* StopWatchAppTests.swift */; };
 		749CEF292AF0042300F7B08E /* StopWatchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEF282AF0042300F7B08E /* StopWatchAppUITests.swift */; };
 		749CEF2B2AF0042300F7B08E /* StopWatchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEF2A2AF0042300F7B08E /* StopWatchAppUITestsLaunchTests.swift */; };
+		749CEF382AF0091600F7B08E /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CEF372AF0091600F7B08E /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		749CEF242AF0042300F7B08E /* StopWatchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		749CEF282AF0042300F7B08E /* StopWatchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchAppUITests.swift; sourceTree = "<group>"; };
 		749CEF2A2AF0042300F7B08E /* StopWatchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		749CEF372AF0091600F7B08E /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				749CEF0F2AF0042000F7B08E /* ContentView.swift */,
 				749CEF112AF0042300F7B08E /* Assets.xcassets */,
 				749CEF132AF0042300F7B08E /* Preview Content */,
+				749CEF372AF0091600F7B08E /* CircleButtonView.swift */,
 			);
 			path = StopWatchApp;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749CEF382AF0091600F7B08E /* CircleButtonView.swift in Sources */,
 				749CEF102AF0042000F7B08E /* ContentView.swift in Sources */,
 				749CEF0E2AF0042000F7B08E /* StopWatchAppApp.swift in Sources */,
 			);

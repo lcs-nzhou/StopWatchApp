@@ -9,7 +9,23 @@ import SwiftUI
 
 struct CircleButtonView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            //first layer
+            Circle()
+                .foregroundColor(.gray)
+                .frame(width: 100)
+            //second layer
+            Circle()
+                .foregroundStyle(.black)
+                .frame(width: 93)
+            //third layer
+            Circle()
+                .foregroundStyle(.gray)
+                .frame(width: 89)
+            Text("Reset")
+                .foregroundStyle(.white)
+                .font(.title2)
+        }
     }
 }
 
