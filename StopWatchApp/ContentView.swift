@@ -21,9 +21,9 @@ struct ContentView: View {
                     .foregroundStyle(.white)
                 //create a circular button
                 HStack {
-                    CircleButtonView(buttonColor: .gray, label: "Reset", labelColor: .white)
+                    CircleButtonView(buttonColor: Color("Dark Grey"), label: "Reset", labelColor: .white)
                     Spacer()
-                    CircleButtonView(buttonColor: .brown, label: "Start", labelColor: .green)
+                    CircleButtonView(buttonColor: Color("Dark Green"), label: "Start", labelColor: .green)
                 }
                 
             }
@@ -33,5 +33,27 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    TabView{
+        Text("World Clock")
+            .tabItem {
+                Image(systemName: "globe")
+                Text("World Clock")
+            }
+        Text("Alarm")
+            .tabItem {
+                Image(systemName: "alarm.fill")
+                Text("Alarm")
+            }
+        ContentView()
+            .tabItem {
+                Image(systemName: "stopwatch.fill")
+                Text("Stopwatch")
+            }
+        Text("Timer")
+            .tabItem {
+                Image(systemName: "timer")
+                Text("Timer")
+            }
+    }
+
 }

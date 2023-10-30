@@ -39,5 +39,5 @@ struct CircleButtonView: View {
 }
 
 #Preview {
-    CircleButtonView(buttonColor: .gray, label: "Reset", labelColor: .white)
+    CircleButtonView(buttonColor: .red, label: "Reset", labelColor: .white)
 }
