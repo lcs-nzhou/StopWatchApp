@@ -33,7 +33,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    TabView{
+    TabView(selection: Binding.constant(3)) {
         Text("World Clock")
             .tabItem {
                 Image(systemName: "globe")
